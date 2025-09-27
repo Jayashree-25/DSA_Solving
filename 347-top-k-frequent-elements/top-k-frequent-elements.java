@@ -4,18 +4,15 @@ class Solution {
         for(int num : nums){
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
-
         PriorityQueue<Integer> heap = new PriorityQueue<>(
             (a, b) -> freq.get(a) - freq.get(b)  // smallest frequency at top
         );
-
         for (int num : freq.keySet()) {
             heap.add(num);
             if (heap.size() > k) {
                 heap.poll(); // remove least frequent
             }
         }
-
         int[] result = new int[k];
         for (int i = k - 1; i >= 0; i--) {
             result[i] = heap.poll();
