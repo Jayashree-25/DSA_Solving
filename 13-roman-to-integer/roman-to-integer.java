@@ -12,7 +12,7 @@ class Solution {
         int result = 0;
         for(int i=0; i<s.length(); i++){
             int value = Rmap.get(s.charAt(i));
-            if(i + 1 < s.length() && value < Rmap.get(s.charAt(i+1))){
+            if(i + 1 < s.length() && Rmap.get(s.charAt(i)) < Rmap.get(s.charAt(i+1))){
                 result -= value;
             }
             else{
