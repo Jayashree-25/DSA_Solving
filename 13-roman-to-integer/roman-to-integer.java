@@ -1,13 +1,14 @@
 class Solution {
     public int romanToInt(String s) {
-        Map<Character, Integer> Rmap = new HashMap<>();
-        Rmap.put('I', 1);
-        Rmap.put('V', 5);
-        Rmap.put('X', 10);
-        Rmap.put('L', 50);
-        Rmap.put('C', 100);
-        Rmap.put('D', 500);
-        Rmap.put('M', 1000);
+        Map<Character, Integer> Rmap = Map.of(
+    'I', 1,
+    'V', 5,
+    'X', 10,
+    'L', 50,
+    'C', 100,
+    'D', 500,
+    'M', 1000
+);
 
         int result = 0;
         for(int i=0; i<s.length(); i++){
