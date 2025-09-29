@@ -14,10 +14,10 @@ class Solution {
             int value = Rmap.get(s.charAt(i));
 
             if(i + 1 < s.length() && value < Rmap.get(s.charAt(i+1))){
-                result = result - value;
+                result -= value;
             }
             else{
-                result = result + value;
+                result += value;
             }
         }
         return result;
