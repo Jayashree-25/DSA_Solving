@@ -1,5 +1,4 @@
 class MinStack {
-    // Each element stores both the value and the min at that time
     Stack<int[]> stack;
 
     public MinStack() {
@@ -7,26 +6,24 @@ class MinStack {
     }
 
     public void push(int val) {
-        // If stack is empty, current value is the minimum
         if (stack.isEmpty()) {
             stack.push(new int[]{val, val});
         } else {
             int currentMin = stack.peek()[1];
-            // Store the smaller of current value and existing min
             stack.push(new int[]{val, Math.min(val, currentMin)});
         }
     }
 
     public void pop() {
-        stack.pop(); // simply remove the top pair
+        stack.pop(); 
     }
 
     public int top() {
-        return stack.peek()[0]; // return the value part
+        return stack.peek()[0]; 
     }
 
     public int getMin() {
-        return stack.peek()[1]; // return the min part
+        return stack.peek()[1]; 
     }
 }
 
