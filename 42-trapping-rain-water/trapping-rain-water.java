@@ -12,7 +12,7 @@ class Solution {
                     maxLeft = height[left];
                 }
                 else{
-                    water = water + maxLeft - height[left];
+                    water += maxLeft - height[left];
                 }
                 left++;
             }
@@ -21,7 +21,7 @@ class Solution {
                     maxRight = height[right];
                 }
                 else{
-                    water = water + maxRight - height[right];
+                    water += maxRight - height[right];
                 }
                 right--;
             }
