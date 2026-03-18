@@ -15,7 +15,7 @@ class Solution {
             double currTime = cars[i][1];
 
             if(currTime > prevTime){
-                fleet = fleet + 1;
+                fleet += 1;
                 prevTime = currTime;
             }
         }
