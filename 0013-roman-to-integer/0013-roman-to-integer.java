@@ -12,10 +12,10 @@ class Solution {
         int res=0;
         for(int i=0; i<s.length(); i++){
             if(i+1 < s.length() && m1.get(s.charAt(i)) < m1.get(s.charAt(i + 1))){
-                res = res - m1.get(s.charAt(i));
+                res -= m1.get(s.charAt(i));
             }
             else{
-                res = res + m1.get(s.charAt(i));
+                res += m1.get(s.charAt(i));
             }
         }
         return res;
