@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Jayashree-25/DSA_Solving/tree/master/0013-roman-to-integer) |
 | [0347-top-k-frequent-elements](https://github.com/Jayashree-25/DSA_Solving/tree/master/0347-top-k-frequent-elements) |
 ## Divide and Conquer
 |  |
@@ -33,4 +34,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Jayashree-25/DSA_Solving/tree/master/0347-top-k-frequent-elements) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Jayashree-25/DSA_Solving/tree/master/0013-roman-to-integer) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/Jayashree-25/DSA_Solving/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
