@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/Jayashree-25/DSA_Solving/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Jayashree-25/DSA_Solving/tree/master/0013-roman-to-integer) |
+| [0507-perfect-number](https://github.com/Jayashree-25/DSA_Solving/tree/master/0507-perfect-number) |
 ## String
 |  |
 | ------- |
