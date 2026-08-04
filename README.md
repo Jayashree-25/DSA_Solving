@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Jayashree-25/DSA_Solving/tree/master/0014-longest-common-prefix) |
 | [0347-top-k-frequent-elements](https://github.com/Jayashree-25/DSA_Solving/tree/master/0347-top-k-frequent-elements) |
 ## Hash Table
 |  |
@@ -46,4 +47,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/Jayashree-25/DSA_Solving/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Jayashree-25/DSA_Solving/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Jayashree-25/DSA_Solving/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Jayashree-25/DSA_Solving/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
