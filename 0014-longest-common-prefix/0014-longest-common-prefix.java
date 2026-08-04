@@ -8,6 +8,9 @@ class Solution {
                 j++;
             }
             prefix = prefix.substring(0, j);
+            if (prefix.isEmpty()) {
+                return "";
+            }
         }
         return prefix;
     }
