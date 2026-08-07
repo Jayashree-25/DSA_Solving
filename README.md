@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Jayashree-25/DSA_Solving/tree/master/0014-longest-common-prefix) |
+| [0016-3sum-closest](https://github.com/Jayashree-25/DSA_Solving/tree/master/0016-3sum-closest) |
 | [0347-top-k-frequent-elements](https://github.com/Jayashree-25/DSA_Solving/tree/master/0347-top-k-frequent-elements) |
 ## Hash Table
 |  |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Jayashree-25/DSA_Solving/tree/master/0016-3sum-closest) |
 | [0347-top-k-frequent-elements](https://github.com/Jayashree-25/DSA_Solving/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -52,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Jayashree-25/DSA_Solving/tree/master/0014-longest-common-prefix) |
+## Two Pointers
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/Jayashree-25/DSA_Solving/tree/master/0016-3sum-closest) |
 <!---LeetCode Topics End-->
