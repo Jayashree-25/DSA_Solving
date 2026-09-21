@@ -75,3 +75,15 @@ Or open the repository in any Java IDE (IntelliJ, VS Code with Java extensions) 
 ## License
 
 [MIT](LICENSE)
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Jayashree-25/DSA_Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Jayashree-25/DSA_Solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
+<!---LeetCode Topics End-->
