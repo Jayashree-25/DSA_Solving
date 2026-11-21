@@ -11,13 +11,11 @@ class Solution {
         map1.put('I', 1);
 
         for(int i=0; i<s.length(); i++){
-            if(i == s.length() - 1){
-                result += map1.get(s.charAt(i));
-            }
-            else if(i+1 < s.length() && map1.get(s.charAt(i)) >= map1.get(s.charAt(i+1))){
-                result += map1.get(s.charAt(i));
-            }else{
+            if(i+1 < s.length() && map1.get(s.charAt(i)) < map1.get(s.charAt(i+1))){
                 result -= map1.get(s.charAt(i));
+            }
+            else{
+                result += map1.get(s.charAt(i));
             }
         }
         return result;
